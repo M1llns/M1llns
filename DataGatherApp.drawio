@@ -1,54 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T12:33:58.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="PIQ5ZvWerRt2j6mQmX1C" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-05T12:36:52.473Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="JBIILSnz6E-dhrlj1HWa" version="24.6.4" type="github">
   <diagram name="Page-1" id="M8YQ2Y3wWnpdGnxM81_x">
-    <mxGraphModel dx="1816" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SHBWaALZ4KcCn02i7CwB-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="36" width="420" height="274" as="geometry" />
-        </mxCell>
-        <mxCell id="SHBWaALZ4KcCn02i7CwB-1" value="ow_KYC Changes" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="78" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="SHBWaALZ4KcCn02i7CwB-2" value="DataGatherFunctionApp" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="10" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="SHBWaALZ4KcCn02i7CwB-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SHBWaALZ4KcCn02i7CwB-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="128" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SHBWaALZ4KcCn02i7CwB-25" value="Collects data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SHBWaALZ4KcCn02i7CwB-24">
-          <mxGeometry x="-0.2469" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SHBWaALZ4KcCn02i7CwB-9" value="DataGatherApp&lt;div&gt;Records and analyses data&lt;br&gt;&lt;/div&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Functions.svg;" vertex="1" parent="1">
-          <mxGeometry x="275" y="220" width="50" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="SHBWaALZ4KcCn02i7CwB-10" value="CosmosDB&lt;br&gt;Deletes all entries after 24 hours" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/CosmosDB.svg;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="530" y="216" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="SHBWaALZ4KcCn02i7CwB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.486;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SHBWaALZ4KcCn02i7CwB-9" target="SHBWaALZ4KcCn02i7CwB-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SHBWaALZ4KcCn02i7CwB-16" value="Stores outcome info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SHBWaALZ4KcCn02i7CwB-11">
-          <mxGeometry x="0.1233" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SHBWaALZ4KcCn02i7CwB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SHBWaALZ4KcCn02i7CwB-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="281.22800000000007" y="108.25" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SHBWaALZ4KcCn02i7CwB-27" value="Modifies entity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SHBWaALZ4KcCn02i7CwB-26">
-          <mxGeometry x="0.0649" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SHBWaALZ4KcCn02i7CwB-28" value="CosmosDB" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/CosmosDB.svg;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="280" y="83" width="50" height="50" as="geometry" />
+          <mxGeometry x="320" y="10" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
